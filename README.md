@@ -1,1 +1,1 @@
-Sandra Liu's homepage [currently in development!]
+Sandra Liu's homepage (currently in development!)
