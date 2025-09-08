@@ -1,1 +1,1 @@
-Sandra Liu's homepage (currently in development!)
+Actively in development right now! 
