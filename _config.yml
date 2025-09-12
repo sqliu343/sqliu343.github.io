@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
 title: <a href="https://sqliu343.github.io/" style="color:#709E8C">Sandra Q. Liu</a>
-description: <p> About my <a href="research.html" style="color:#85D5A5">research</a>, 
+description: <p> About my <a href="research.html" style="color:#85D5A5" text-decoration="underline">research</a>, 
              <a href="projects.html" style="color:#85D5A5">projects</a>, and 
              <a href="hobbies.html" style="color:#85D5A5">hobbies</a>! </p>
 subdescription: <p style="color:#FFFFFF">Click the links above (in green) to learn more about me! </p>
