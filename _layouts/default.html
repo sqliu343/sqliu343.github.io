@@ -18,7 +18,7 @@
         <header class="inner">
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-          <h3 id="project_subtagline">{{ site.subdescription | default: "where the headings go" }}</h3>
+          <h6 id="project_subtagline">{{ site.subdescription | default: "where the headings go" }}</h6>
         </header>
     </div>
 
@@ -32,7 +32,7 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <!-- <p>Testing a new footer!</p> -->
+        <h1 id="footer_title">{{ site.footer | default: I am the new footer message! }}</h1>
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
