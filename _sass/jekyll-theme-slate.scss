@@ -272,11 +272,8 @@ kbd {
   align-items: center;      /* Vertical centering */
   height: 60px;
   background-color: #222222;   /* Optional: background for visibility */
-}
-
-.topnav-center {
-  color: white;             /* Optional: text color */
-  font-size: 18px;          /* Optional: font size */
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
 }
 
 /*******************************************************************************
