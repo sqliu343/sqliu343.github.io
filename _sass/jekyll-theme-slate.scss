@@ -265,6 +265,19 @@ kbd {
   vertical-align: middle;
 }
 
+.topnav {
+  display: flex;
+  justify-content: center;  /* Horizontal centering */
+  align-items: center;      /* Vertical centering */
+  height: 60px;
+  background-color: #333;   /* Optional: background for visibility */
+}
+
+.topnav-center {
+  color: white;             /* Optional: text color */
+  font-size: 18px;          /* Optional: font size */
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
