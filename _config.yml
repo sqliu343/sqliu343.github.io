@@ -1,5 +1,6 @@
 theme: jekyll-theme-slate
-title: <a href="https://sqliu343.github.io/" style="color:#709E8C">Sandra Q. Liu</a>
+title: <img src="images/robot_doodle.png" alt="robotdoodle" 
+      style="height: 1em; width:auto; vertical-align: -0.15em;"> <a href="https://sqliu343.github.io/" style="color:#709E8C">Sandra Q. Liu</a>
 # description: <p> About my <a href="research.html" style="color:#85D5A5; text-decoration:underline">research</a>, 
 #              <a href="projects.html" style="color:#85D5A5; text-decoration:underline">projects</a>, and 
 #              <a href="hobbies.html" style="color:#85D5A5; text-decoration:underline">hobbies</a>! </p>
