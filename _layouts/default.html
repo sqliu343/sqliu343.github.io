@@ -23,13 +23,14 @@
 
     <!-- NAVIGATION -->
     <div class="topnav">
-        <div class="inner">
-            <a href="https://sqliu343.github.io/" style="color:#85D5A5">Home</a>
-            <a href="research.html" style="color:#85D5A5; margin-left:25px;">Research</a>
-            <a href="projects.html" style="color:#85D5A5; margin-left:25px;">Projects</a>
-            <a href="hobbies.html" style="color:#85D5A5; margin-left:25px;">Hobbies</a>
-        </div>
+    <div class="inner">
+        <a href="/" class="{% if page.active_page == 'home' %}active{% endif %}">Home</a>
+        <a href="/research.html" class="{% if page.active_page == 'research' %}active{% endif %}">Research</a>
+        <a href="/projects.html" class="{% if page.active_page == 'projects' %}active{% endif %}">Projects</a>
+        <a href="/hobbies.html" class="{% if page.active_page == 'hobbies' %}active{% endif %}">Hobbies</a>
     </div>
+    </div>
+
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
