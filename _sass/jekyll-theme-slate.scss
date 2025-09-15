@@ -421,6 +421,13 @@ Small Device Styles
     font-size: 11px;
   }
 
+  .topnav a {
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
 }
 
 @media screen and (max-width: 320px) {
@@ -470,5 +477,11 @@ Small Device Styles
     max-width: 320px;
     font-size: 11px;
   }
+
+  .topnav a {
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
 
 }
