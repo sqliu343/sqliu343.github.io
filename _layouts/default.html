@@ -58,5 +58,19 @@
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
+
+    <!-- Open external links in new tab -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const links = document.querySelectorAll('a[href^="http"]');
+        links.forEach(link => {
+            if (link.hostname !== window.location.hostname) {
+            link.setAttribute("target", "_blank");
+            link.setAttribute("rel", "noopener noreferrer");
+            }
+        });
+    });
+    </script>
+
   </body>
 </html>
